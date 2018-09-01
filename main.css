@@ -1,0 +1,182 @@
+* {
+    font-family: -apple-system,BlinkMacSystemFont
+}
+
+header > div {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background: black; 
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.lefthead {
+    max-width: 1000px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    align-content: flex-start
+}
+.righthead {
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 0;
+    float: right;
+    
+}
+
+.righthead img {
+    width: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-left: 8px;
+    font-weight: 600;
+    width: 100%;
+    font-family: -apple-system,BlinkMacSystemFont
+   
+}
+.list {
+    width: 65px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lefthead img {
+    width: 55px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+main {
+    display: flex;
+    width: 52%;
+    height: 100vh;
+    background: yellow;
+    align-content: center;
+    margin: 0 auto;
+    
+}
+
+.rightbox {
+    /* display: flex; */
+    /* align-content: flex-end; */
+    /* flex-wrap: wrap; */
+    background: powderblue;
+    height: 80vh;
+    width:65%;
+    /* justify-content: space-between; */
+    margin: 0 auto;
+}
+
+.rightbox > div {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-content: center; */
+}
+
+.leftbox {
+    align-content: center;
+    background: green;
+    width: 30%;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.picture {
+    display: flex;
+    align-content: center;
+    background: white;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+button {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-content: center;
+    margin: 5px auto;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 110px;
+    color: black;
+    background: lightgray;
+}
+
+.name {
+    display: flex;
+    align-content: center;
+    font-size: 25px;
+    margin: 0 auto;
+    color: gray;
+    padding-left:80px;
+}
+
+.repobox {
+    height: 30%;
+    width: 47%;
+    background-color: red;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.topbottombox {
+    width: 94%;
+    height: 30%;
+    background:purple;
+    display:flex;
+    justify-content: space-evenly
+}
+
+.bottombottombox {
+    width: 94%;
+    height: 30%;
+    background:purple;
+    display:flex;
+    justify-content: space-evenly
+}
